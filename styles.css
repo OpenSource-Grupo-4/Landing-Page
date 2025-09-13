@@ -7,7 +7,6 @@ body {
     text-align: center;
 }
 
-/* ----- Ubicaciones ----- */
 .locations {
     padding: 40px 20px;
 }
@@ -15,12 +14,12 @@ body {
 .subtitle {
     color: green;
     font-weight: bold;
-    font-size: 1.5rem; /* 🔥 MÁS GRANDE (≈ 24px) */
+    font-size: 1.5rem; 
     margin-bottom: auto;
 }
 
 .title {
-    font-size: 1.8rem; /* 🔥 Un poco más grande que antes */
+    font-size: 1.8rem;
     margin-bottom: 50px;
 }
 
@@ -45,7 +44,6 @@ body {
     font-size: 0.95rem;
 }
 
-/* ----- About Section ----- */
 .about {
     display: flex;
     justify-content: center;
@@ -65,9 +63,8 @@ body {
     line-height: 1.4;
 }
 
-/* ----- Ajuste de Who We Are ----- */
 .who-we-are {
-    display: flow-root; /* 🔥 change */
+    display: flow-root;
     align-items: center;
     gap: 30px;
     margin-top: 10px;
