@@ -15,18 +15,19 @@ body {
 .subtitle {
     color: green;
     font-weight: bold;
-    margin-bottom: 5px;
+    font-size: 1.5rem; /* 🔥 MÁS GRANDE (≈ 24px) */
+    margin-bottom: auto;
 }
 
 .title {
-    font-size: medium;
-    margin-bottom: 30px;
+    font-size: 1.8rem; /* 🔥 Un poco más grande que antes */
+    margin-bottom: 50px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 15px; /* 🔥 menos espacio entre imágenes */
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -36,14 +37,12 @@ body {
     object-fit: cover;
     border-radius: 15px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .card p {
-    margin: 10px 0;
-    font-size: small;
-
-
+    margin: 5px 0;
+    font-size: 0.95rem;
 }
 
 /* ----- About Section ----- */
@@ -62,37 +61,35 @@ body {
 }
 
 .about-right p {
-    font-size: small;
+    font-size: 0.95rem;
     line-height: 1.4;
 }
 
 /* ----- Ajuste de Who We Are ----- */
 .who-we-are {
-    display: flow-root;
+    display: flow-root; /* 🔥 change */
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     margin-top: 10px;
 }
 
 .who-we-are img {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 15px;
     object-fit: cover;
 }
 
 .who-we-are p {
-    font-size: small;
-    line-height: 1.4;
-    max-width: fit-content;
-
+    font-size: 0.95rem;
+    line-height: 1.5;
+    max-width: none;
+    text-align: center;
 }
 
 .about-left {
-    display: flex;
+    display: flow;
     flex-direction: column;
-    align-items: center; /* 🔥 centra el contenido horizontalmente */
-    object-position: center;
-    text-align: center; /* centra el texto */
+    align-items: center;
+    text-align: center;
 }
-
