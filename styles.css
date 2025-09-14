@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
     background: #fff;
     color: #111;
     line-height: 1.5;
@@ -20,13 +26,13 @@ body {
 }
 
 .navbar-container {
-   max-width: 1200px;
-   margin: 0 auto;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 30px 20px;
-   gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    gap: 20px; 
 }
 
 .brand a {
@@ -287,17 +293,17 @@ body {
 }
 
 @media (max-width: 900px) {
-   .hero h1 {
-     font-size: 2.4rem;
-   }
+    .hero h1 {
+      font-size: 2.4rem;
+    }
 
-   .nav-links ul {
-     gap: 18px;
-   }
+    .nav-links ul {
+      gap: 18px;
+    }
 
-   .hero-image img {
-     max-width: 760px;
-   }
+    .hero-image img {
+      max-width: 760px;
+    }
 }
 
 @media (max-width: 640px) {
