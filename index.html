@@ -13,12 +13,18 @@
           <a href="#">WeRide</a>
         </div>
 
-        <nav class="nav-links" aria-label="Main navigation">
+          <!-- BOTÓN HAMBURGUESA -->
+        <button class="menu-toggle" aria-label="Abrir menú">
+          &#9776;
+          <!-- Ícono de hamburguesa -->
+        </button>
+
+        <nav class="nav-links" aria-label="main-navigation">
           <ul>
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="#vehicles">Vehículos</a></li>
+            <li><a href="#locations">Ubicaciones</a></li>
+            <li><a href="#about">Nosotros</a></li>
             <li><a href="#">Contáctanos</a></li>
-            <li><a href="#">Vehículos</a></li>
-            <li><a href="#">Ubicaciones</a></li>
           </ul>
         </nav>
 
@@ -29,7 +35,7 @@
     <main>
 
       <!-- hero section-->
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero-content">
           <h1>Welcome to WeRide!</h1>
           <div class="hero-buttons">
@@ -50,7 +56,7 @@
 
       <!-- vehicles Section (cards)-->
 
-      <section class="vehicles-section">
+      <section class="vehicles-section" id="vehicles">
         <h2 class="subtitle">Nuestros Vehiculos</h2>
         <h4 class="title"">Descubre nuestro catálogo</h4>
         <div class="container-vehicles">
@@ -70,7 +76,7 @@
       </section>
 
       <!-- Locations section (cards) -->
-      <section class="locations">
+      <section class="locations" id="locations">
         <h2 class="subtitle">Donde encontrárnos?</h2>
         <h4 class="title">Puntos estratégicos</h4>
         <div class="cards">
@@ -93,7 +99,7 @@
       </section>
 
       <!-- Who we are section -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-left">
           <h2>Quiénes somos</h2>
           <div class="who-we-are">
@@ -106,7 +112,7 @@
           </div>
         </div>
         <div class="about-right">
-          <h2>Que hacemos</h2>
+          <h2>Qué hacemos</h2>
           <p>
             Ofrecemos alquileres convenientes y confiables de bicicletas y scooters 
             eléctricos a corto plazo a un precio asequible en más de 280 ciudades 
@@ -142,15 +148,15 @@
         <div class="footer-social">
           <h4>Síguenos</h4>
           <div class="social-icons">
-            <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
-            <a href="#"><img src="img/twitter.svg" alt="Twitter"></a>
+            <a><img src="img/facebook.png" alt="Facebook"></a>
+            <a><img src="img/instagram.png" alt="Instagram"></a>
+            <a class="twitter-logo"><img src="img/twitter.png" alt="Twitter"></a>
           </div>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2025 WeRide. Todos los derechos reservados..</p>
+        <p>&copy; 2025 WeRide. Todos los derechos reservados.</p>
       </div>
     </footer>
 
