@@ -14,6 +14,10 @@ body {
     padding-top: 72px;
 }
 
+/*-----------------------------------*\
+  #NAVBAR
+\*-----------------------------------*/
+
 .navbar {
     background: #1f1b1b;
     color: #fff;
@@ -65,10 +69,13 @@ body {
 .nav-links a:hover {
   opacity: 1;
 }
-/* section hero*/
+
+/*-----------------------------------*\
+  #HERO SECTION
+\*-----------------------------------*/
 
 .download-btn,
-.btn.primary {
+.btn-primary {
   background: #1ee055;
   color: #04110a;
   padding: 10px 18px;
@@ -79,6 +86,7 @@ body {
 }
 
 .hero {
+  margin-bottom: 5rem;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -93,6 +101,7 @@ body {
 }
 
 .hero-buttons {
+    margin-top: 20px;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -107,10 +116,14 @@ body {
     color: #fff;
 }
 
-.btn .outline {
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
+.btn-outline {
+    background: #fff;
+    color: #04110a;
+    padding: 10px 18px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0 6px 18px rgba(30,224,85,0.15);
 }
 
 
@@ -127,7 +140,6 @@ body {
   object-fit: cover;
 }
 
-/* Contenido encima del video */
 .hero-content {
   position: relative; 
   z-index: 2; 
@@ -140,6 +152,36 @@ body {
   color: white; 
 }
 
+/*-----------------------------------*\
+  #VEHICLE SECTION
+\*-----------------------------------*/
+
+.vehicles-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container-vehicles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    
+  }
+
+  .container-vehicles div {
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    padding: 2rem 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+/*-----------------------------------*\
+  #LOCATIONS
+\*-----------------------------------*/
+
 .locations {
   padding: 40px 20px;
 }
@@ -147,12 +189,12 @@ body {
 .subtitle {
     color: green;
     font-weight: bold;
-    font-size: 1.5rem; 
+    font-size: 1.8rem; 
     margin-bottom: auto;
 }
 
 .title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 50px;
 }
 
@@ -196,6 +238,10 @@ body {
     line-height: 1.4;
 }
 
+/*-----------------------------------*\
+  #QUIENES SOMOS
+\*-----------------------------------*/
+
 .who-we-are {
     display: flow-root;
     align-items: center;
@@ -222,8 +268,12 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
 }
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
 .footer {
   background: #1f1b1b;
   color: #fff;
@@ -300,6 +350,10 @@ body {
   color: #aaa;
 }
 
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
 @media (max-width: 900px) {
     .hero h1 {
       font-size: 2.4rem;
@@ -317,6 +371,14 @@ body {
 @media (max-width: 640px) {
     body {
         padding-top: 86px;
+    }
+
+    .navbar {
+
+    }
+
+    .nav-links {
+      display: none;
     }
 
     .hero h1 {
@@ -344,28 +406,3 @@ body {
   }
 }
 
-
-/* vehicle Section (cards) */
-.vehicles-section {
-  width: 80%;
-  margin: auto;
-}
-.vehicles-section h4 {
-  color: #008000;
-}
-
-@media (min-width: 768px) {
-  .container-vehicles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    
-  }
-
-  .container-vehicles div {
-    background-color: #EEEEEE;
-    border-radius: 1rem;
-    padding: 2rem 0;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
-  }
-}
