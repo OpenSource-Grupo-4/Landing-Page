@@ -201,6 +201,56 @@ body {
   }
 }
 
+/*-----------------------------------*\
+  #STEPS
+\*-----------------------------------*/
+
+.steps {
+  background-color: #1E1E1E;
+}
+
+.steps-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  color: #fff;
+}
+
+.steps h2 {
+  text-align: center;
+  color: #FFF;
+  font-size: 2rem;
+  margin: 0 auto 8px;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+.step {
+  text-align: center;
+  padding: 12px;
+}
+
+.step h3 {
+  color: #3C8647;
+  margin: 8px 0;
+  font-size: 1.05rem;
+}
+
+.step p {
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+}
 
 /*-----------------------------------*\
   #LOCATIONS
@@ -411,6 +461,16 @@ body {
 
     .hero-image img {
       max-width: 760px;
+    }
+
+    .steps {
+      grid-template-columns: 1fr;
+    }
+
+    .steps img{
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
     }
 }
 
