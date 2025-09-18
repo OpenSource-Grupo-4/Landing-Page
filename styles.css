@@ -212,7 +212,7 @@ body {
 .steps-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 60px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
@@ -237,16 +237,6 @@ body {
 .step {
   text-align: center;
   padding: 12px;
-}
-
-.step img {
-  width: 100%;
-  max-width: 380px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
-  margin: 0 auto 12px;
 }
 
 .step h3 {
@@ -471,6 +461,16 @@ body {
 
     .hero-image img {
       max-width: 760px;
+    }
+
+    .steps {
+      grid-template-columns: 1fr;
+    }
+
+    .steps img{
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
     }
 }
 
