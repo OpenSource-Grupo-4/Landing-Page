@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,21 +18,22 @@
         </div>
 
           <!-- hamburguer -->
-        <button class="menu-toggle" aria-label="Abrir menú">
+        <button class="menu-toggle" aria-label="Open menu">
           &#9776;
           <!-- hamburger -->
         </button>
 
         <nav class="nav-links" aria-label="main-navigation">
           <ul>
-            <li><a href="#vehicles">Vehículos</a></li>
-            <li><a href="#locations">Ubicaciones</a></li>
-            <li><a href="#about">Nosotros</a></li>
-            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#vehicles">Vehicles</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#download-app">Download App</a></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
         </nav>
 
-        <a class="download-btn" href="#">Descargar App</a>
+        <a class="download-btn" href="#download-app">Download App</a>
       </div>
     </header>
 
@@ -43,8 +44,8 @@
         <div class="hero-content">
           <h1>Welcome to WeRide!</h1>
           <div class="hero-buttons">
-            <a class="btn-outline" href="#">Ubicaciones</a>
-            <a class="btn-primary" href="#">Descargar App</a>
+            <a class="btn-outline" href="#">Locations</a>
+            <a class="btn-primary" href="#download-app">Download App</a>
           </div>
         </div>
 
@@ -60,28 +61,28 @@
 
       <!-- vehicles Section (cards)-->
       <section class="vehicles-section" id="vehicles">
-        <h2 class="subtitle">Nuestros Vehiculos</h2>
-        <h4 class="title"">Descubre nuestro catálogo</h4>
+        <h2 class="subtitle">Our Vehicles</h2>
+        <h4 class="title"">Discover our catalog</h4>
         <div class="container-vehicles">
           <div>
-            <img src="./img/vehicle-1.png"/>
-            <p>Scooter eléctrico (de pie)</p>
+            <img src="./img/vehicle-1.png" alt="Electric scooter"/>
+            <p>Electric scooter (standing)</p>
           </div>
           <div>
-            <img src="./img/vehicle-2.png"/>
-            <p>Bicicleta eléctrica</p>
+            <img src="./img/vehicle-2.png" alt="Electric bike"/>
+            <p>Electric bike</p>
           </div>
           <div>
-            <img src="./img/vehicle-3.png"/>
-            <p>Moto eléctrica (tipo scooter sentado)</p>
+            <img src="./img/vehicle-3.png" alt="Electric motorcycle"/>
+            <p>Electric motorcycle (seated scooter type)</p>
           </div>
         </div>
       </section>
 
       <!-- Locations section (cards) -->
       <section class="locations" id="locations">
-        <h2 class="subtitle">Donde encontrárnos?</h2>
-        <h4 class="title">Puntos estratégicos</h4>
+        <h2 class="subtitle">Where to find us?</h2>
+        <h4 class="title">Strategic points</h4>
         <div class="cards">
           <div class="card">
             <img src="img/UPC-Front.png" alt="UPC">
@@ -104,24 +105,24 @@
       <!-- How it works section -->
        <section class="steps" id="steps">
         <div class="steps-container">
-          <h2>Cómo funciona</h2>
+          <h2>How it works</h2>
           <div class="steps-grid">
             <article class="step">
-              <img src="img/hw-2.png" alt="Registrate">
-              <h3>Regístrate</h3>
-              <p>Elige tu pase anual, diario o mensual en nuestra página web o a través de nuestra aplicación móvil.</p>
+              <img src="img/hw-2.png" alt="Sign up">
+              <h3>Sign up</h3>
+              <p>Choose your annual, daily or monthly pass on our website or through our mobile application.</p>
             </article>
 
             <article class="step">
-              <img src="img/hw-3.png" alt="Retira tu bicicleta">
-              <h3>Retira tu bicicleta</h3>
-              <p>Primero escribe tu código de usuario y después introduce tu código PIN en el panel de control para retirarla. Puedes asociar tu tarjeta de transporte.</p>
+              <img src="img/hw-3.png" alt="Pick up your bike">
+              <h3>Pick up your bike</h3>
+              <p>First enter your user code and then enter your PIN code on the control panel to pick it up. You can associate your transport card.</p>
             </article>
 
             <article class="step">
-              <img src="img/hw-1.png" alt="Devolución">
-              <h3>Devuelve correctamente</h3>
-              <p>Introduce la bicicleta en un anclaje libre, espera "Devolución en progreso", mueve el timón y confirma "Devolución correcta" para finalizar tu viaje.</p>
+              <img src="img/hw-1.png" alt="Return">
+              <h3>Return correctly</h3>
+              <p>Insert the bike into a free anchor, wait for "Return in progress", move the handlebar and confirm "Correct return" to finish your trip.</p>
             </article>
           </div>
         </div>
@@ -130,23 +131,62 @@
       <!-- Who we are section -->
       <section class="about" id="about">
         <div class="about-left">
-          <h2>Quiénes somos</h2>
+          <h2>Who we are</h2>
           <div class="who-we-are">
             <img src="img/image%204.png" alt="Lime Scooters">
             <p>
-              Lima es la empresa de vehículos eléctricos compartidos más grande del mundo. 
-              Nuestra misión es construir un futuro donde el transporte sea compartido, 
-              asequible y libre de carbono.
+              Lima is the world's largest shared electric vehicle company. 
+              Our mission is to build a future where transportation is shared, 
+              affordable and carbon-free.
             </p>
           </div>
         </div>
         <div class="about-right">
-          <h2>Qué hacemos</h2>
+          <h2>What we do</h2>
           <p>
-            Ofrecemos alquileres convenientes y confiables de bicicletas y scooters 
-            eléctricos a corto plazo a un precio asequible en más de 280 ciudades 
-            de casi 30 países en los cinco continentes.
+            We offer convenient and reliable short-term rentals of electric bikes and scooters 
+            at an affordable price in more than 280 cities 
+            in nearly 30 countries across five continents.
           </p>
+        </div>
+      </section>
+
+      <!-- About WeRide section -->
+      <section class="about-weride" id="about-weride">
+        <div class="about-weride-container">
+          <h2>About WeRide</h2>
+          <div class="about-cards">
+            <div class="about-card">
+              <img src="img/about-1.png" alt="Partners">
+              <h3>Partners</h3>
+              <p>Help us create a better future</p>
+            </div>
+            <div class="about-card">
+              <img src="img/about-2.png" alt="Community">
+              <h3>Community</h3>
+              <p>Join our team around the world</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Download App section -->
+      <section class="download-app" id="download-app">
+        <div class="download-app-container">
+          <div class="app-mockups">
+            <img src="img/mobile-app.png" alt="WeRide Mobile App">
+          </div>
+          <div class="download-content">
+            <h2>Download the App</h2>
+            <div class="download-buttons">
+              <a href="#" class="app-store-btn">
+                <img src="img/appstore.png" alt="Download on the App Store">
+              </a>
+              <a href="#" class="google-play-btn">
+                <img src="img/googleplay.png" alt="GET IT ON Google Play">
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -155,27 +195,27 @@
       <div class="footer-container">
         <div class="footer-brand">
           <h3>WeRide</h3>
-          <p>Sostenibilidad y movilidad compartida en Lima.</p>
+          <p>Sustainability and shared mobility in Lima.</p>
         </div>
 
         <div class="footer-links">
           <h4>Links</h4>
           <ul>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contáctanos</a></li>
-            <li><a href="#">Vehículos</a></li>
-            <li><a href="#">Ubicaciones</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Vehicles</a></li>
+            <li><a href="#">Locations</a></li>
           </ul>
         </div>
 
         <div class="footer-contact">
-          <h4>Contáctanos</h4>
+          <h4>Contact Us</h4>
           <p>Email: support@weride.com</p>
           <p>Tel: +51 939 727 739</p>
         </div>
 
         <div class="footer-social">
-          <h4>Síguenos</h4>
+          <h4>Follow Us</h4>
           <div class="social-icons">
             <a><img src="img/facebook.png" alt="Facebook"></a>
             <a><img src="img/instagram.png" alt="Instagram"></a>
@@ -185,11 +225,11 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2025 WeRide. Todos los derechos reservados.</p>
+        <p>&copy; 2025 WeRide. All rights reserved.</p>
       </div>
     </footer>
 
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 
   </body>
 </html>
