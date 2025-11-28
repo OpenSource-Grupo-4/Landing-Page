@@ -101,6 +101,29 @@ body {
 }
 
 /*-----------------------------------*\
+  #ABOUT THE PRODUCT SECTION
+\*-----------------------------------*/
+
+.about-product-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+.about-product-container iframe {
+  width: 100%;
+  height: 480px; 
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .about-product-container iframe {
+    height: 260px;
+  }
+}
+
+/*-----------------------------------*\
   #HERO SECTION
 \*-----------------------------------*/
 
@@ -1309,3 +1332,4 @@ body {
     width: 33.333%;
   }
 }
+
